@@ -1,0 +1,29 @@
+npm contains packages/files/dependencies from other developers
+these packages are published to be used by other developers 
+the packages contains codes/js codes and other useful libraries
+
+NPM is automatically installed when installing Node.js
+
+COMMANDS
+npm --version
+npm --v
+npm -v
+
+local dependency - only use in a particular project (used more often)
+command: npm i <packageName> //i is installed
+
+global dependency - use to any project
+command: npm install -g <packageName>
+sudo install -g <packageName> //asked if installing globally
+
+package.json - manifest file (stores important info about project/package)
+3 ways to create this file: 
+manual approach (create package.json in the root, create properties etc)
+npm init (step by step, press enter to skip)
+npm init -y (everything default)
+
+
+
+----- Why do we need package.json? ----
+to provide overall information about the project
+
